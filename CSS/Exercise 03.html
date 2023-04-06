@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+    <style>       
+        .container {
+         background-color: rgb(25, 26, 26);
+         margin-top: 0%;
+        }
+        h1{ text-align: center;}
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e21313;
+}
+.menu{
+    margin-left: 500px;
+}
+.row{
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+}
+.col-1{
+    width: 33%;
+}
+.col-2{
+    width: 33%;
+}
+.col-3{
+    width: 33%;
+}
+.footer{
+    margin-top: 400px;
+    background-color: rgb(21, 22, 22);
+    color: #f8f3f3;
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+   
+     
+    <div class="container">
+        <div class="menu">
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
+              
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1">
+            column 1
+        </div>
+        <div class="col-2">
+            column 2
+        </div>
+        <div class="col-3">
+            column 3
+        </div>
+    </div>
+    
+    <div class="footer" >
+        <p>
+            Copyright 2021
+        </p>
+      </div>
+</body>
+</html>
